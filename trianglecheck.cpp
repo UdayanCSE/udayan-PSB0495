@@ -8,17 +8,17 @@ int main()
     if(a+b+c==180)
     {
         if(a==b && b==c)
-    {
+        {
         printf("triangle is equilateral");
-    }
-    else if(a==b || b==c || c==a)
-    {
+        }
+        else if(a==b || b==c || c==a)
+        {
         printf("triangle is isoceles");
-    }
-    else
-    {
+        }
+        else
+        {
         printf("triangle is scalene");
-    }
+        }
     }
     else
     {
