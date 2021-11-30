@@ -3,9 +3,11 @@
 int main()
 {
     int a,b,c;
-    printf("enter the 3 sides of the triangle: ");
+    printf("enter the 3 angles of the triangle: ");
     scanf("%d %d %d",&a,&b,&c);
-    if(a==b && b==c)
+    if(a+b+c==180)
+    {
+        if(a==b && b==c)
     {
         printf("triangle is equilateral");
     }
@@ -17,5 +19,9 @@ int main()
     {
         printf("triangle is scalene");
     }
+    }
+    else
+    {
+     printf("entered angles dont form a triangle");
+    }   
 }
-
